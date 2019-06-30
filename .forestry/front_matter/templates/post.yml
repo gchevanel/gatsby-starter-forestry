@@ -8,5 +8,11 @@ fields:
 - type: datetime
   name: date
   label: Date
+- name: author
+  type: text
+  config:
+    required: false
+  label: Author
+  description: Author
 pages:
 - src/pages/posts/we-tryed-to-do-sometign-cool.md
