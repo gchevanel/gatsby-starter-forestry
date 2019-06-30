@@ -15,4 +15,5 @@ fields:
   label: Author
   description: Author
 pages:
+- src/pages/posts/la-vie-en-rose.md
 - src/pages/posts/we-tryed-to-do-sometign-cool.md
