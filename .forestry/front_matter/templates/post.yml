@@ -13,7 +13,11 @@ fields:
   config:
     required: false
   label: Author
-  description: Author
+- name: image
+  type: file
+  config:
+    maxSize: 250
+  label: image
 pages:
 - src/pages/posts/la-vie-en-rose.md
 - src/pages/posts/we-tryed-to-do-sometign-cool.md
